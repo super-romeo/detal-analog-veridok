@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://detal-analog.veridok.ru/sitemap.xml
