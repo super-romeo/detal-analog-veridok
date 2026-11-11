@@ -8,6 +8,10 @@
 <meta name="description" content="Деталь импортного станка, линии или насоса больше не поставляется? Подбор аналога по фото шильдика, размерам или описанию — с поставщиком в России.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Деталь-Аналог</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Деталь-Аналог</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Деталь импортного оборудования больше не поставляется — подберём аналог, который можно купить в России</h1>
-    <p class="sub">Для закупщиков и ремонтных служб предприятий: вы присылаете фото шильдика, размеры или описание узла, а получаете конкретную позицию с артикулом, список отличий от оригинала и поставщика с ценой и сроком поставки.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для закупщиков и ремонтных служб</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">Деталь импортного оборудования больше не поставляется&nbsp;<span class="soft">— подберём аналог, который можно купить в России</span></h1>
+      <p class="rise" style="--i:2">Для закупщиков и ремонтных служб предприятий: вы присылаете фото шильдика, размеры или описание узла, а получаете конкретную позицию с артикулом, список отличий от оригинала и поставщика с ценой и сроком поставки.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">Опознание детали</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="200" y="286" font-size="32" font-weight="600" fill="#0a1524">Аналог с артикулом</text><rect x="130" y="350" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="362" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="450" width="48" height="48" rx="10" fill="#12397a" /><rect x="200" y="462" width="200" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="550" width="48" height="48" rx="10" fill="#dfe8f7" /><rect x="200" y="562" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">Поставщик</text><rect x="750" y="470" width="56" height="150" rx="8" fill="#ffffff" /><rect x="830" y="400" width="56" height="220" rx="8" fill="#12397a" /><rect x="910" y="510" width="56" height="110" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Закупщиков и ремонтных служб</dd></div>
+      <div><dt>Что</dt><dd>Подберём аналог</dd></div>
+      <div><dt>Как</dt><dd>Фото шильдика, размеры или описание</dd></div>
+      <div><dt>Доступ</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Опознание детали</b><span>По фото шильдика, обмеру или описанию: что за узел и какой типоразмер.</span><br><a class="btn" href="price.html" data-ev="feature_opoznanie">Мне это нужно</a></div>
-      <div class="card"><b>Аналог с артикулом</b><span>Конкретная позиция, а не «похожее», с параметрами совпадения.</span><br><a class="btn" href="price.html" data-ev="feature_analog">Мне это нужно</a></div>
-      <div class="card"><b>Отличия до покупки</b><span>Чем аналог отличается от оригинала, называем заранее.</span><br><a class="btn" href="price.html" data-ev="feature_otlichiya">Мне это нужно</a></div>
-      <div class="card"><b>Поставщик в России</b><span>Где купить, цена и срок поставки на день ответа.</span><br><a class="btn" href="price.html" data-ev="feature_postavshchik">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Опознание детали</text><rect x="140" y="180" width="420" height="320" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="220" width="280" height="20" rx="10" fill="#dde2ea" /><rect x="170" y="260" width="220" height="20" rx="10" fill="#b9c3d2" /><rect x="170" y="300" width="300" height="20" rx="10" fill="#dde2ea" /><rect x="170" y="340" width="160" height="20" rx="10" fill="#dde2ea" /><circle cx="480" cy="420" r="52" fill="#dfe8f7" /><polyline points="456,422 476,444 508,400" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Опознание детали</h3><p>По фото шильдика, обмеру или описанию: что за узел и какой типоразмер.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_opoznanie">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Аналог с артикулом</text><rect x="110" y="180" width="52" height="52" rx="10" fill="#dfe8f7" /><polyline points="122,208 134,220 150,196" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="194" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="110" y="280" width="52" height="52" rx="10" fill="#12397a" /><rect x="190" y="294" width="240" height="24" rx="12" fill="#dde2ea" /><rect x="110" y="380" width="52" height="52" rx="10" fill="#dfe8f7" /><polyline points="122,408 134,420 150,396" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="394" width="200" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>Аналог с артикулом</h3><p>Конкретная позиция, а не «похожее», с параметрами совпадения.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_analog">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Отличия до покупки</text><rect x="100" y="200" width="200" height="280" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="124" y="240" width="150" height="16" rx="8" fill="#dde2ea" /><rect x="124" y="276" width="110" height="16" rx="8" fill="#b9c3d2" /><rect x="124" y="312" width="140" height="16" rx="8" fill="#dde2ea" /><polygon points="330,300 400,300 400,284 450,320 400,356 400,340 330,340" fill="#12397a" /><rect x="480" y="200" width="200" height="280" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="504" y="250" width="150" height="16" rx="8" fill="#dfe8f7" /><rect x="504" y="290" width="120" height="16" rx="8" fill="#dde2ea" /><circle cx="580" cy="400" r="28" fill="#12397a" /></svg></div>
+        <h3>Отличия до покупки</h3><p>Чем аналог отличается от оригинала, называем заранее.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_otlichiya">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Поставщик в России</text><line x1="120" y1="340" x2="680" y2="340" fill="none" stroke="#dde2ea" stroke-width="6" /><rect x="130" y="300" width="120" height="80" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="280" y="300" width="120" height="80" rx="28" fill="#dfe8f7" /><rect x="430" y="300" width="120" height="80" rx="28" fill="#12397a" /><rect x="580" y="300" width="120" height="80" rx="28" fill="#dde2ea" /></svg></div>
+        <h3>Поставщик в России</h3><p>Где купить, цена и срок поставки на день ответа.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_postavshchik">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">На упаковочной линии европейского производства вышел из строя подшипник узла привода. Производитель линии больше не поставляет запчасти в Россию, а на подшипнике выбит внутренний код завода, которого нет в каталогах. Механик присылает фото маркировки и размеры: внутренний и наружный диаметр, ширину. Ответ — позиция другого производителя с теми же размерами, указание, что у неё другой тип уплотнения, и два поставщика в России с ценой и сроком. Закупщик оформляет заказ сам.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>На упаковочной линии европейского производства вышел из строя подшипник узла привода. Производитель линии больше не поставляет запчасти в Россию, а на подшипнике выбит внутренний код завода, которого нет в каталогах. Механик присылает фото маркировки и размеры: внутренний и наружный диаметр, ширину. Ответ — позиция другого производителя с теми же размерами, указание, что у неё другой тип уплотнения, и два поставщика в России с ценой и сроком. Закупщик оформляет заказ сам.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">фото</text><text x="600" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">размеры</text><text x="960" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">заказ</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">подшипник</text><rect x="170" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="270" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="370" y="450" width="70" height="70" rx="12" fill="#dde2ea" /><rect x="470" y="450" width="70" height="70" rx="12" fill="#b9c3d2" /><text x="170" y="640" font-size="32" fill="#566174">Закупщик</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Для автомобильных деталей подбор замены давно решён: по артикулу каталоги показывают аналоги разных производителей. С промышленным оборудованием так получается не всегда. Если деталь стоит в импортном станке, упаковочной линии или промышленном насосе, кросс-таблицы на неё часто просто нет: каталоги автомобильных запчастей промышленное оборудование не покрывают, а производитель оборудования соответствий не публикует.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Для автомобильных деталей подбор замены давно решён: по артикулу каталоги показывают аналоги разных производителей. С промышленным оборудованием так получается не всегда. Если деталь стоит в импортном станке, упаковочной линии или промышленном насосе, кросс-таблицы на неё часто просто нет: каталоги автомобильных запчастей промышленное оборудование не покрывают, а производитель оборудования соответствий не публикует.</p>
     <p>Задача становится острой, когда оригинальная деталь в Россию больше не поставляется. Производитель ушёл с рынка, каталог не переводился, а на детали выбит внутренний код завода, по которому поиск ничего не находит. Оборудование при этом стоит и ждёт ремонта.</p>
     <p>Дальше начинается ручной перебор: механик или закупщик ищет по размерам, спрашивает у поставщиков, сравнивает описания. Люди ищут это словами «чем заменить подшипник» с артикулом снятой детали или «деталь снята с производства». Ответ нужен один: какую позицию купить и где.</p>
     <p>Сервис берёт этот поиск на себя. Вы присылаете то, что есть: фото шильдика или маркировки, размеры, описание узла, название и модель оборудования. Чем больше данных, тем точнее подбор, но начать можно и с одного фото.</p>
@@ -105,31 +139,34 @@
     <p>Ремонтной службе с парком импортного оборудования удобно присылать детали пакетом: сразу несколько позиций, которые нужны для ремонта или в запас. Подборы сохраняются, и при следующей поломке того же узла ответ уже есть.</p>
     <p>Сервис рассчитан на закупщиков, главных механиков и ремонтные службы российских предприятий, у которых работает импортное оборудование. Сейчас он в подготовке: сначала мы проверяем, нужен ли он предприятиям.</p>
     <p>Сервис подбирает аналог по присланным данным; решение о замене, поставку и монтаж выполняет предприятие.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Что нужно прислать для подбора?</h3>
-    <p>Фото шильдика или маркировки, размеры, описание узла и модель оборудования — что есть. Начать можно с одного фото.</p>
-    <h3>Вы продаёте детали?</h3>
-    <p>Нет. Мы называем аналог и поставщика; покупаете вы сами и напрямую.</p>
-    <h3>Что, если замены нет?</h3>
-    <p>Так и скажем. Если не хватает данных, напишем, какой размер снять или что сфотографировать.</p>
-    <h3>Для какого оборудования подходит?</h3>
-    <p>Для импортных станков, упаковочных линий, насосов и другого промышленного оборудования, на детали которого нет кросс-таблицы.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он предприятиям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Что нужно прислать для подбора?</h3><p>Фото шильдика или маркировки, размеры, описание узла и модель оборудования — что есть. Начать можно с одного фото.</p></div>
+      <div class="split flip"><h3>Вы продаёте детали?</h3><p>Нет. Мы называем аналог и поставщика; покупаете вы сами и напрямую.</p></div>
+      <div class="split flip"><h3>Что, если замены нет?</h3><p>Так и скажем. Если не хватает данных, напишем, какой размер снять или что сфотографировать.</p></div>
+      <div class="split flip"><h3>Для какого оборудования подходит?</h3><p>Для импортных станков, упаковочных линий, насосов и другого промышленного оборудования, на детали которого нет кросс-таблицы.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он предприятиям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Пришлите фото шильдика или размеры</h2>
-    <p><label>Что за оборудование<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Станок</option><option>Упаковочная линия</option><option>Насос или компрессор</option><option>Другое</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Пришлите фото шильдика или размеры</h2>
+    </div>
+    <div class="tile stack">
+      <label>Что за оборудование<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Станок</option><option>Упаковочная линия</option><option>Насос или компрессор</option><option>Другое</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Деталь-Аналог</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Подбор аналога по присланным данным. Решение о замене, поставку и монтаж выполняет предприятие.</p>
+  <p>Подбор аналога по присланным данным. Решение о замене, поставку и монтаж выполняет предприятие.</p>
 </div></footer>
 
 </body>
